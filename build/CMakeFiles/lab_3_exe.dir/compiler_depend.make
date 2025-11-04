@@ -5,6 +5,7 @@ CMakeFiles/lab_3_exe.dir/main.cpp.o: /home/pavel/MyFiles/OOP_labs/OOP_lab3/main.
   /home/pavel/MyFiles/OOP_labs/OOP_lab3/include/figure.h \
   /home/pavel/MyFiles/OOP_labs/OOP_lab3/include/rectangle.h \
   /home/pavel/MyFiles/OOP_labs/OOP_lab3/include/square.h \
+  /home/pavel/MyFiles/OOP_labs/OOP_lab3/include/trapezoid.h \
   /home/pavel/MyFiles/OOP_labs/OOP_lab3/include/figure.h \
   /home/pavel/MyFiles/OOP_labs/OOP_lab3/include/spisok.h \
   /usr/include/alloca.h \
@@ -280,6 +281,10 @@ CMakeFiles/lab_3_exe.dir/main.cpp.o: /home/pavel/MyFiles/OOP_labs/OOP_lab3/main.
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
 /usr/include/c++/13/bits/stl_algobase.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
@@ -336,20 +341,6 @@ CMakeFiles/lab_3_exe.dir/main.cpp.o: /home/pavel/MyFiles/OOP_labs/OOP_lab3/main.
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/13/bits/basic_ios.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
-/usr/include/c++/13/bits/memory_resource.h:
-
-/usr/include/wchar.h:
-
 /usr/include/alloca.h:
 
 /usr/include/c++/13/bit:
@@ -380,6 +371,8 @@ CMakeFiles/lab_3_exe.dir/main.cpp.o: /home/pavel/MyFiles/OOP_labs/OOP_lab3/main.
 
 /usr/include/c++/13/bits/stringfwd.h:
 
+/home/pavel/MyFiles/OOP_labs/OOP_lab3/include/trapezoid.h:
+
 /usr/include/c++/13/cwctype:
 
 /usr/include/c++/13/bits/ranges_cmp.h:
@@ -393,6 +386,20 @@ CMakeFiles/lab_3_exe.dir/main.cpp.o: /home/pavel/MyFiles/OOP_labs/OOP_lab3/main.
 /usr/include/c++/13/bits/stl_construct.h:
 
 /home/pavel/MyFiles/OOP_labs/OOP_lab3/main.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/include/wchar.h:
 
 /usr/include/c++/13/bits/ranges_base.h:
 
@@ -424,12 +431,6 @@ CMakeFiles/lab_3_exe.dir/main.cpp.o: /home/pavel/MyFiles/OOP_labs/OOP_lab3/main.
 
 /usr/include/time.h:
 
-/usr/include/c++/13/bits/ostream.tcc:
-
-/usr/include/c++/13/numbers:
-
-/usr/include/c++/13/string:
-
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
@@ -454,13 +455,19 @@ CMakeFiles/lab_3_exe.dir/main.cpp.o: /home/pavel/MyFiles/OOP_labs/OOP_lab3/main.
 
 /home/pavel/MyFiles/OOP_labs/OOP_lab3/include/spisok.h:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/c++/13/ios:
 
-/usr/include/c++/13/bits/stl_iterator.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/c++/13/bits/functexcept.h:
 
-/usr/include/c++/13/ios:
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/usr/include/c++/13/bits/ostream.tcc:
+
+/usr/include/c++/13/numbers:
+
+/usr/include/c++/13/string:
 
 /usr/include/asm-generic/errno.h:
 
@@ -593,7 +600,3 @@ CMakeFiles/lab_3_exe.dir/main.cpp.o: /home/pavel/MyFiles/OOP_labs/OOP_lab3/main.
 /usr/include/wctype.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
