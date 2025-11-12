@@ -2,6 +2,7 @@
 #define FIGURE_H
 
 #include <iostream>
+#include <vector>
 
 class Figure {
     // Оператор потокового вывода
@@ -24,12 +25,15 @@ public:
 
     Figure& operator=(Figure& right_operand) noexcept;
 
-    bool operator==(Figure& right_operand) const;
+    bool operator==(const Figure& right_operand) const;
 
     virtual void print(std::ostream& os) const; // Виртуальный метод для вывода
 
 
     virtual operator double() const;
+
+    // Метод для установки точек (для тестирования)
+    void setPoints(const std::vector<double>& x_coords, const std::vector<double>& y_coords);
 
 
 

@@ -1,5 +1,6 @@
 #include "../include/figure.h"
 #include <stdbool.h>
+#include <vector>
 
 // Конструктор по умолчанию
 Figure::Figure() : countPoint(0), pointsX(nullptr), pointsY(nullptr)
@@ -115,7 +116,7 @@ Figure& Figure::operator=(Figure& right_operand) noexcept
 }
 
 
-bool Figure::operator==(Figure& right_operand) const
+bool Figure::operator==(const Figure& right_operand) const
 {
     if (this->countPoint != right_operand.countPoint) return false;
 
@@ -147,4 +148,16 @@ void Figure::calculateCenter() const
 Figure::operator double() const
 {
     return area();
+}
+
+void Figure::setPoints(const std::vector<double>& x_coords, const std::vector<double>& y_coords) {
+    if (x_coords.size() != countPoint || y_coords.size() != countPoint) {
+        std::cout << "Неверное количество точек" << std::endl;
+        return;
+    }
+    
+    for (int i = 0; i < countPoint; i++) {
+        pointsX[i] = x_coords[i];
+        pointsY[i] = y_coords[i];
+    }
 }
